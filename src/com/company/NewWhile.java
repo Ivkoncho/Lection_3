@@ -1,6 +1,6 @@
 package com.company;
 import java.util.Scanner;
-public class New {
+public class NewWhile {
     public static void main(String[] args) {
         int inputNumber=1;
         Scanner scan = new Scanner(System.in);

@@ -6,18 +6,19 @@ public class Sum1toN {
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        int N;
-        int b=0;
+        int num;
+        int sum=0;
 
         System.out.println("Enter any number");
-        N = scan.nextInt();
+        num = scan.nextInt();
 
-        while (N>0);{
-            b=b+N;
-            N--;
-
+        for(int i = 1; i <= num; ++i)
+        {
+            // sum = sum + i;
+            sum += i;
         }
-        System.out.println("The sum is "+ b);
+
+        System.out.println("Sum = " + sum);
+    }
 
     }
-}
